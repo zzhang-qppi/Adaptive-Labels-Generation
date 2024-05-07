@@ -50,5 +50,4 @@ The relevance score for each social media comment in the dataset is calculated u
 ---
 ---
 ## 工作流程
-1. 
-2. 
+![flowchart](流程图.jpg)
