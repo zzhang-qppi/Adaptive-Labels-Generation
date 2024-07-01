@@ -1,4 +1,4 @@
-from util import request_GPT, parse_gpt_answer_to_list
+from utils import request_GPT, parse_gpt_answer_to_list
 
 def clean_duplicate_labels(labels_list):
     write_message = lambda labels: [

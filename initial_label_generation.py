@@ -1,7 +1,7 @@
 from openai import OpenAI, APITimeoutError, RateLimitError, InternalServerError
 import sys
 from clean_duplicate_labels import clean_duplicate_labels
-from util import request_GPT, parse_gpt_answer_to_list
+from utils import request_GPT, parse_gpt_answer_to_list
 
 def extract_keywords_from_a_post(post):
     write_message = lambda text: [

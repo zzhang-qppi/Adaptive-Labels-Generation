@@ -1,4 +1,4 @@
-from util import request_GPT, parse_gpt_answer_to_list
+from utils import request_GPT, parse_gpt_answer_to_list
 
 def search_for_new_labels_in_posts(posts, labels):
     write_message = lambda posts_str, labels_str:[
